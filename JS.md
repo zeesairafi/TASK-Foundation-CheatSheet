@@ -9,6 +9,7 @@
 ## Javascript Basics
 
 **Comments**
+
 Comments in javascript are in the following format
 
 ```js
@@ -332,7 +333,7 @@ ___________;
 
 ### Iteration Methods
 
-- Iteration methods work on ******\_\_\_\_****** only!
+- Iteration methods work on **\*\***\_\_\_\_**\*\*** only!
 - All iteration methods go over evrey single element of the array
 - Iteration methods take a function that has a parameter of the current value of the array. Preferred to use arrow function inside it.
 
@@ -359,4 +360,92 @@ array.___((e) => e <= 30); // returns a filtered array equals to [10, 20, 30]
 array.___((e) => e === 20); // returns 20
 array.___((e) => e === 20); // returns true
 array.___((prev, current) => prev + current); // returns the sum of the array (210)
+```
+
+# Objects
+
+The structure of object is a pair of `_______:_______`
+
+```js
+// To create an object
+const object = _
+PROPERTY_NAME: VALUE,
+"PROPERTY NAME 2": VALUE, // if there are spaces, you can use the quotation marks
+_
+
+// to access one element of the object, we have couple of ways
+object.PROPERTY_NAME
+object["PROPERTY_NAME"]
+```
+
+## Accessing the object dynamically
+
+```js
+const someObj = {
+  key1: "value1",
+  key2: "value2",
+};
+const keyName = "shade of red";
+console.log(someObj___keyName___);
+```
+
+## Adding new proprties to the object
+
+```js
+const someObj = {
+  key1: "value1",
+  key2: "value2",
+};
+someObject_____;
+```
+
+# Classes
+
+```js
+// to create a new class
+____ ClassName{
+
+
+}
+
+// creating object
+const object = ____ ClassName();
+
+// Adding properties to the class (without a constructor)
+class ClassName{
+  name = "Ali";
+  age = 3;
+}
+```
+
+### Creating Methods
+
+```js
+class ClassName {
+  // the ordinary function way
+  _________;
+
+  // the arrow function way
+  _________;
+}
+```
+
+### Constructor
+
+```js
+// creating the constructor
+class ClassName {
+  __________(name, age, interests) {
+    _____.name = name;
+    _____.age = age;
+    _____.interests = interests;
+  }
+}
+```
+
+### Inheritance
+
+```js
+class ParentClassName{}
+class ChildClassName _______ ParentClassName{}
 ```

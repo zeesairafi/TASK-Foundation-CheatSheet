@@ -401,6 +401,12 @@ someObject_____;
 
 # Classes
 
+Classes only have 2 main things to write inside them
+
+1. **Methods**: They are just functions inside a class
+2. **Properties**: They are just variables or constants
+   You can't execute a function inside the class body, it should only be inside methods.
+
 ```js
 // to create a new class
 ____ ClassName{
@@ -431,6 +437,12 @@ class ClassName {
 ```
 
 ### Constructor
+
+A constructor is just a special **method** that has the following features
+
+1. It gets executed when you create an object from the class using the `new` keyword
+2. It's used to initialize the properties
+3. It has no name
 
 ```js
 // creating the constructor

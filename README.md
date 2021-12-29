@@ -1,28 +1,9 @@
-# TASK-NAME
+# Foundation Review ⛲️
 
-This is the template for tasks. These repos are the starting points and instructions for students to explore a concept.
+Well well well,...
+Seems like you have completed the foundation phase, and you are still surviving 😮‍💨
+This task, is going to go over every single topic you have learnt so far. If there are topics that you didn't learn, you can skip them.
 
-## Instructions
+# Steps
 
-Add instructions here. This is github flavoured markdown so you can be as creative as you want. Add code snippets, images, gifs, checkboxes, anything you want.
-
-### 1. Extract Components
-
-- [ ] Look at the html in `index.html`
-- [ ] Move it into `App.js`
-- [ ] Do you see those cards? Can you turn them into a component??
-
-It should look like this:
-
-![screenshot](https://tenor.com/xNjE.gif)
-
-### 2. Do the thing
-
-Explanation of the thing and why we're about to do it. Cool right?
-
-- [ ] Make a `store.js` file
-- [ ] Copy + Paste broken code:  
-  ```js
-  console.log("lol");
-  ```
-- [ ] Have an explanation ready for when Zainab interrogates you
+This task has multiple folders, HTML, CSS, and Javascript
